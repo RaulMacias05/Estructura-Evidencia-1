@@ -67,7 +67,7 @@ class Menu_principal:
             self.notas_canceladas[folio] = datos_registrados
 
     def consultas_y_reportes(self):
-        pass
+        odm.ConsultasYReportes(self.notas_registradas)
 
     def cancelar_una_nota(self):
         pass    

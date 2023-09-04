@@ -86,7 +86,7 @@ class RegistrarNota:
 
     def retornar_datos(self):
 
-        datos_recolectados = (self.fecha_de_nota, self.nombre_del_cliente, self.detallesNota)
+        datos_recolectados = (self.fecha_de_nota, self.nombre_del_cliente, self.monto_total ,self.detallesNota)
 
         return datos_recolectados
 
