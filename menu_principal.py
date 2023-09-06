@@ -31,9 +31,6 @@ class Menu_principal:
 
         print(f'''
 [#9999FF]REGISTRO Y MANIPULACIÓN DE NOTAS[/#9999FF]
-              
-{self.notas_registradas}
-{self.notas_canceladas}
 
 [#7AFFFF]--Menú Principal--[/#7AFFFF]
 
